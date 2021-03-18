@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="bencivenga.gioele.RogueLike.AggressiveEnemy">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYEAAAAAAACAgIAAAAAAAAAAAAAAAAQAEAAAAAAYAA=</HashCode>
+      <FileName>Models\Figures\AggressiveEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Figure">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACiFIAAAAAAAAFAChhQCIBBACAwBEFAACAAoAKA=</HashCode>
+      <FileName>Models\Figures\Figure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Item">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEIAAAAAAAAAAAAAAAAAAAQAAAAIAAAQEAAAAAAgYCA=</HashCode>
+      <FileName>Models\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Lantern">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAIA=</HashCode>
+      <FileName>Models\Items\Lantern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.FloorRock">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Items\FloorRock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Nothing">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Items\Nothing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Player">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIgCAAAABAAABAAAAAEAQAAAAAACAYAA=</HashCode>
+      <FileName>Models\Figures\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Potion">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Items\Potion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Weapon">
+    <Position X="6.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Items\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.Camera">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQACAAAgAAJBgECAACAAAAAAAAIAQAAIAIEAACAA=</HashCode>
+      <FileName>Models\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.CombatManager">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAgBACAAAAIAACAAAAACAAAAAAAA=</HashCode>
+      <FileName>Models\CombatManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.GUIElement">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="bencivenga.gioele.RogueLike.GUIElement.ElementClicked" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\GUI\GUIElement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAIAACAAACgAAAAAAAAAAAAAAAEAAABAAAAAAQAQ=</HashCode>
+      <FileName>Models\GUI\GUIElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.HUD">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgAAACCAKAAAAAAAAAQAAAAAAAABAAA=</HashCode>
+      <FileName>Models\HUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.InputState">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAKUAAAACAEAACABBIQAAHgAAQABUINDEAAEAQAEA=</HashCode>
+      <FileName>Models\InputState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.MainMenu">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="bencivenga.gioele.RogueLike.MainMenu.MenuStates" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\GUI\MainMenu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAYIAAAAAACAAgAAAAAAAAICAAIEAAAAAAABAAAAAEQ=</HashCode>
+      <FileName>Models\GUI\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bencivenga.gioele.RogueLike.PathToPlayer">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgABAgAACgAAAAAAAAAAgEEAAAAAAAA=</HashCode>
+      <FileName>Models\PathToPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
